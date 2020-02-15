@@ -7,9 +7,9 @@ df = pandas.read_csv("users/test.csv", header=0)
 
 #Convert the column where the .jpgs exist into a list
 
-url = list(df.url)
+url = list(df.url) #url is the name of the column
 
-#Run through script with 'requests' and download images to 'cd'
+#Run through script with 'requests' and download images to current working directory
 
 for img in url:
  file_name = img.split('/')[-1]
