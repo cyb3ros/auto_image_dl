@@ -1,2 +1,2 @@
 # auto_image_dl
-Automatically downloads all images in a given CSV file by converting the column containing .jpg URLs into a list and iterating through the URLs
+Automatically downloads all images contained within a URL in a CSV file by converting the column containing .jpg URLs into a list and iterating through the URLs to download all images
